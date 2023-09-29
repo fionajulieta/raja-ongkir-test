@@ -1,0 +1,4 @@
+ketik di terminal:
+untuk run all test case : pytest -v
+untuk run pass or not : pytest test/cost/test_city_normal.py
+untuk run pass or not (plus nunjukkin hasilnya): pytest test/cost/test_city_normal.py -s
