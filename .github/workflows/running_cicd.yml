@@ -19,7 +19,7 @@ jobs:
           pip install -r requirements.txt
       - name: Run test with pytest
         run: pytest test -v
-      - name: Send report to slack
-        run: pytest setting/notif_slack.py
-        env:
+    #  - name: Send report to slack
+    #    run: pytest setting/notif_slack.py
+    #    env:
            PYTEST_WEBHOOK_SLACK: ${{ secrets.WEBHOOK_SLACK }}
